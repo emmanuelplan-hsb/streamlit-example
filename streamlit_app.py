@@ -10,7 +10,7 @@ Edit `/streamlit_app.py` to customize this app to your heart's desire :heart:.
 If you have any questions, checkout our [documentation](https://docs.streamlit.io) and [community
 forums](https://discuss.streamlit.io).
 
-#Example 3
+# Example 3
 st.write("Example 3")
 with col[1]:
     # no query here
