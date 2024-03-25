@@ -11,7 +11,8 @@ If you have any questions, checkout our [documentation](https://docs.streamlit.i
 forums](https://discuss.streamlit.io).
 
 # Example 3
-st.write("Example 3")
+Example 3
+
 with col[1]:
     # no query here
     arr = np.random.normal(1, 1, size=100)
