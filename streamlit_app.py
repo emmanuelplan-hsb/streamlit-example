@@ -10,7 +10,16 @@ Edit `/streamlit_app.py` to customize this app to your heart's desire :heart:.
 If you have any questions, checkout our [documentation](https://docs.streamlit.io) and [community
 forums](https://discuss.streamlit.io).
 
+#Example 3
+st.write("Example 3")
+with col[1]:
+    # no query here
+    arr = np.random.normal(1, 1, size=100)
+    fig, ax = plt.subplots()
+    ax.hist(arr, bins=20)
+    st.pyplot(fig)
 ## This is a section header.
+
 
 In the meantime, below is an example of what you can do with just a few lines of code:
 """
