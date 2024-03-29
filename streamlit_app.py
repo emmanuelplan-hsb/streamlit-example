@@ -2,13 +2,16 @@ import altair as alt
 import numpy as np
 import pandas as pd
 import streamlit as st
-
+import os
 """
 # Welcome to Streamlit!
 
 Edit `/streamlit_app.py` to customize this app to your heart's desire :heart:.
 If you have any questions, checkout our [documentation](https://docs.streamlit.io) and [community
 forums](https://discuss.streamlit.io).
+
+st.write("username:", st.secrets["db_username"])
+st.write("password:", st.secrets["db_password"])
 
 # Example 3
 Example 3
